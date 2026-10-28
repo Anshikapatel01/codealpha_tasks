@@ -1,86 +1,41 @@
- 💬 FAQ Chatbot
+CodeAlpha Internship Tasks
 
-<p align="center">
-  A simple FAQ chatbot built with Python, NLP, and Streamlit.
-</p>---
+This repository contains three AI and Python projects completed as part of the CodeAlpha Internship.
 
-📌 About the Project
+Projects
 
-The FAQ Chatbot is a Python-based application that answers frequently asked questions about an online learning platform. It uses text preprocessing, TF-IDF vectorization, and cosine similarity to identify the most relevant question and return its corresponding answer.
+Task 1: Language Translation
 
-✨ Features
+A simple English-to-Hindi translation web application built using Python, Streamlit, and the MyMemory Translation API.
 
-- 💬 Interactive chat interface
-- 🧹 Text cleaning and preprocessing
-- 🔤 NLTK-based word tokenization
-- 🧠 TF-IDF text vectorization
-- 🎯 Cosine similarity for FAQ matching
-- 🔄 Fallback response for unmatched questions
+Technologies: Python, Streamlit, Requests
 
-🛠️ Technologies Used
+Folder: "Task1_Language_Translation"
 
-Technology| Purpose
-Python| Core programming language
-Streamlit| Web-based chat interface
-NLTK| Text tokenization
-Scikit-learn| TF-IDF and cosine similarity
+Task 2: FAQ Chatbot
 
-📂 Project Structure
+A chatbot that answers frequently asked questions using text processing and similarity matching.
 
-FAQ-Chatbot/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-└── .venv/  (local environment, not uploaded)
+Technologies: Python, Streamlit, Scikit-learn, NLTK
 
-⚙️ Installation and Setup
+Folder: "Task2_FAQ_Chatbot"
 
-1. Clone the repository
+Task 3: AI Music Generation
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+An AI-based music generation project that uses a trained model to generate MIDI music.
 
-2. Navigate to the project directory
+Technologies: Python, NumPy, PyTorch, music21, pretty_midi
 
-cd FAQ-Chatbot
+Folder: "Task3_music_generation"
 
-3. Install dependencies
+How to Run
 
-pip install -r requirements.txt
+Open the folder of the project you want to run, install its dependencies using:
 
-4. Run the chatbot
+python -m pip install -r requirements.txt
 
-streamlit run app.py
+Then follow the run instructions in that project's README file.
 
-Open the local URL displayed in your terminal to start chatting.
+Author
 
-🧠 How It Works
-
-1. The user enters a question.
-2. The chatbot cleans and tokenizes the input text.
-3. TF-IDF converts the stored FAQ questions into numerical vectors.
-4. Cosine similarity finds the closest matching question.
-5. The chatbot returns the corresponding answer or a fallback response.
-
-💡 Example Questions
-
-- What courses are available?
-- How can I register?
-- Are the courses free?
-- Do I get a certificate?
-- How can I reset my password?
-- How do I contact support?
-
-🚀 Future Improvements
-
-- Add more FAQs and categories.
-- Improve NLP-based question matching.
-- Add support for larger FAQ datasets.
-- Deploy the chatbot online.
-
----
-
-<p align="center">
-  Made with ❤️ using Python and Streamlit
-</p>
+Completed as part of the CodeAlpha Internship Tasks.
